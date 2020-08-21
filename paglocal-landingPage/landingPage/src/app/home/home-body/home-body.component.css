@@ -1,0 +1,105 @@
+.body{
+    background-color: #199454;
+    height:100%;
+    margin-left:-10px;
+    margin-right: -10px;
+}
+.text{
+    color: white;
+    text-align: center;
+    padding:45px;
+}
+h2{
+    font-weight: 100;
+    font-size: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-family: "Poppins";
+}
+.inputs{
+    display:grid;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+input{
+    border: 1.2px solid #00CD00;
+    border-radius: 18px;
+    width: 100%;
+    margin-right: 20px;
+    
+}
+button{
+    border-radius: 26px;
+    background-color: #FFD800;
+    border-style: none;
+    color: #199454;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 35px;
+    padding-left: 35px;
+    height: 36px;
+    float:bottom;
+    margin-top: 52px;
+    margin-left:15px;
+    box-shadow: 0 0 8px rgba(85, 85, 95, 0.5);
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: #ffe552;
+}
+
+input:focus{
+    border: 1px solid #199454;
+    border-radius: 18px;
+    outline: none;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    float:center;
+}
+.img>img{
+    width: 450px;
+}
+img{
+    width: 60%;
+    margin: 35px;
+}
+.white-background{
+    background-color: white;
+    height: 100%;
+    color: #199454;
+    text-align: center;
+    padding: 45px;
+};
+hr {
+	
+	border: 2px solid #199454; 
+};
+/* nao ta pegando o css da linha */
+ .footer{
+      display: flex;
+    justify-content: center;
+ }
+ .footer>img{
+    width: 150px;
+}
+
+
+
+
+@media (max-width: 700px) { 
+
+    .form{
+        display: block;
+        justify-content: center;
+        color:white;
+        font-family: "Poppins";
+    }
+   
+
+}

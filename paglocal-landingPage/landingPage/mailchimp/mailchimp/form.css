@@ -1,0 +1,49 @@
+/*
+ * WIDGET MAILCHIMP BY EBRAHIM P. LEITE | www.webcreative.com.br
+ */
+
+/* Personaliza formulário */
+#mailchimp-form {
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+
+#subscribe-content p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #2d3340;
+}
+
+#subscribe-content .input input{
+    border: 1px solid #dfdfdf;
+    font-size: 14px !important;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: 0;
+    color: #000;
+}
+#subscribe-content .input input:focus{
+    border-color: #000;
+}
+#subscribe-content .btn_enviar {
+   width: 100%;
+   padding: 15px;
+   text-align: center;
+   text-transform: uppercase;
+   background: #ffeb00;
+   color: #414141;
+   border: 0;
+   font-weight: bold;
+}
+#subscribe-content .btn_enviar:hover {
+   background: #f3e10f;
+}
+#subscribe-msg .notification_ok{
+    color: #009926 !important;
+}
+#subscribe-msg .notification_error{
+    color: red;
+}
